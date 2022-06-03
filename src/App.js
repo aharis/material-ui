@@ -1,13 +1,15 @@
-import { Button } from '@mui/material';
+import React from "react";
 import Navbar from './components/Navbar/Navbar';
-
+import Header from './components/Header/Header';
 import './App.css';
+import Products from "./components/Products/Products";
 
 function App() {
   return (
     <div>
-    <Navbar />
-      <Button variant='contained'>login</Button>
+      <Navbar />
+      <Header />
+      <Products />
     </div>
   );
 }

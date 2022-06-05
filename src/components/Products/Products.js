@@ -1,5 +1,9 @@
-import { Box, Button, Grid, Typography } from '@mui/material';
 import React from 'react';
+import Categories from './Categories/Categories';
+import { Box, Button, Grid, Typography } from '@mui/material';
+import MobileCategory from './MobileCategory';
+import ProductList from './ProductList';
+
 
 const Products = () => {
     return (
@@ -52,6 +56,13 @@ const Products = () => {
                     </Box>
                 </Grid>
             </Grid>
+            <Box sx={{display: {xs: "none", lg: "block"}}}>
+            <Categories />
+            </Box>
+            <Box sx={{display: {xs: "block", lg: "none"}}}>
+            <MobileCategory />
+            </Box>
+            <ProductList />
         </Box>
     )
 }

@@ -41,7 +41,7 @@ const Navbar = () => {
                         {/* logo */}
                         <Box>
                             <IconButton>
-                                <LocalMallIcon sx={{ fontSize: "2.4 rem" }} />
+                                <LocalMallIcon sx={{ fontSize: "2.4rem" }} />
                             </IconButton>
                         </Box>
                         {/* links */}
